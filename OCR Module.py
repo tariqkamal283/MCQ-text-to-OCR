@@ -1,9 +1,9 @@
 from PIL import Image
 import pytesseract as tess
 import json
-tess.pytesseract.tesseract_cmd = r'C:\Users\Tariq Kamal\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+tess.pytesseract.tesseract_cmd = r'Add your Tesseract-OCR\tesseract.exe Path here!'
 
-img = Image.open('test11.png')
+img = Image.open('Add your image path here!')
 text = tess.image_to_string(img)
 
 lines = text.split('\n')
