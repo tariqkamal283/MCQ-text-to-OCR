@@ -4,5 +4,6 @@ To use this module:
 1, Create a Folder.
 2, Copy/Move this .py file to that folder.
 3, Copy/Move the image to be converted in the same folder as well.
-4, Replace test11.py with your image path.
-5, Enjoy!
+4, Replace the tessaract path to your destination path of tessaract OCR.exe
+5, Replace test11.py with your image path.
+6, Enjoy!
